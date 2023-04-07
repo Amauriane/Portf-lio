@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.backgroud{
+    background-image: url(../img/background1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav h2{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transform: scale(1.2);
+}
+.btn{
+    
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+}
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+h4{
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: #fcfcfc;
+    text-align: justify;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    margin-right: 10px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+}
+h2{
+    color: #fcfcfc;
+    text-align: justify;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-right: 0px;
+    
+}
+p{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 34px;
+    margin-right: 0px;
+}
+h5{
+    color: #fcfcfc;
+    text-align: justify;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    margin-right: 10px;
+}
+.imagem{
+    padding: 0px 0px;
+}
+.foto{
+    margin-left: 31px;
+}
+ul{
+    display: flex;
+}
+.info{
+    margin-right: 12px;
+}
+.imagem4{
+    margin-left: 30px;
+
+}
+.imagem3{
+    margin-left: 30px;
+}
